@@ -76,12 +76,6 @@
     <Compile Include="Atmega_GPIO.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="button.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="button.h">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="seven_segment.c">
       <SubType>compile</SubType>
     </Compile>
