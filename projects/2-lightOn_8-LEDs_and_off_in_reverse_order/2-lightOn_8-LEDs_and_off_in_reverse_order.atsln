@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "2-lightOn_8-LEDs_and_off_in_reverse_order", "2-lightOn_8-LEDs_and_off_in_reverse_order\2-lightOn_8-LEDs_and_off_in_reverse_order.cproj", "{463626D8-3FED-46A2-BEF9-37E9432FB4F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{463626D8-3FED-46A2-BEF9-37E9432FB4F8}.Debug|AVR.ActiveCfg = Debug|AVR
+		{463626D8-3FED-46A2-BEF9-37E9432FB4F8}.Debug|AVR.Build.0 = Debug|AVR
+		{463626D8-3FED-46A2-BEF9-37E9432FB4F8}.Release|AVR.ActiveCfg = Release|AVR
+		{463626D8-3FED-46A2-BEF9-37E9432FB4F8}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

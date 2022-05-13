@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "5-button_with_internal_pull_up", "5-button_with_internal_pull_up\5-button_with_internal_pull_up.cproj", "{3EC74BCF-EA28-468D-BA93-E0864F68AA86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EC74BCF-EA28-468D-BA93-E0864F68AA86}.Debug|AVR.ActiveCfg = Debug|AVR
+		{3EC74BCF-EA28-468D-BA93-E0864F68AA86}.Debug|AVR.Build.0 = Debug|AVR
+		{3EC74BCF-EA28-468D-BA93-E0864F68AA86}.Release|AVR.ActiveCfg = Release|AVR
+		{3EC74BCF-EA28-468D-BA93-E0864F68AA86}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

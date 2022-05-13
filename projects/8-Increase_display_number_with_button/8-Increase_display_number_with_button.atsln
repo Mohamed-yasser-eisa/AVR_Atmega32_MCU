@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "8-Increase_display_number_with_button", "8-Increase_display_number_with_button\8-Increase_display_number_with_button.cproj", "{34672F8E-0117-4AEC-9473-6BA43C230212}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34672F8E-0117-4AEC-9473-6BA43C230212}.Debug|AVR.ActiveCfg = Debug|AVR
+		{34672F8E-0117-4AEC-9473-6BA43C230212}.Debug|AVR.Build.0 = Debug|AVR
+		{34672F8E-0117-4AEC-9473-6BA43C230212}.Release|AVR.ActiveCfg = Release|AVR
+		{34672F8E-0117-4AEC-9473-6BA43C230212}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

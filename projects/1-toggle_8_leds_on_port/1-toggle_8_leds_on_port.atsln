@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "1-toggle_8_leds_on_port", "1-toggle_8_leds_on_port\1-toggle_8_leds_on_port.cproj", "{2FBFAFBC-FCF2-4C9F-B0B1-59CF65A81E6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FBFAFBC-FCF2-4C9F-B0B1-59CF65A81E6D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{2FBFAFBC-FCF2-4C9F-B0B1-59CF65A81E6D}.Debug|AVR.Build.0 = Debug|AVR
+		{2FBFAFBC-FCF2-4C9F-B0B1-59CF65A81E6D}.Release|AVR.ActiveCfg = Release|AVR
+		{2FBFAFBC-FCF2-4C9F-B0B1-59CF65A81E6D}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
