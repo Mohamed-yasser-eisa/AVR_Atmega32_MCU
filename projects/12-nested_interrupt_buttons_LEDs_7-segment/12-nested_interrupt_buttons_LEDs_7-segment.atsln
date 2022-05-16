@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "12-nested_interrupt_buttons_LEDs_7-segment", "12-nested_interrupt_buttons_LEDs_7-segment\12-nested_interrupt_buttons_LEDs_7-segment.cproj", "{EA75F61D-5F8A-4F14-9017-35E21A45D357}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA75F61D-5F8A-4F14-9017-35E21A45D357}.Debug|AVR.ActiveCfg = Debug|AVR
+		{EA75F61D-5F8A-4F14-9017-35E21A45D357}.Debug|AVR.Build.0 = Debug|AVR
+		{EA75F61D-5F8A-4F14-9017-35E21A45D357}.Release|AVR.ActiveCfg = Release|AVR
+		{EA75F61D-5F8A-4F14-9017-35E21A45D357}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
