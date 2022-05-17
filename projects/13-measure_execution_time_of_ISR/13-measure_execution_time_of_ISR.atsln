@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "13-measure_execution_time_of_ISR", "13-measure_execution_time_of_ISR\13-measure_execution_time_of_ISR.cproj", "{DA1667C3-E6C0-46B8-AA89-92F0E017260B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA1667C3-E6C0-46B8-AA89-92F0E017260B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DA1667C3-E6C0-46B8-AA89-92F0E017260B}.Debug|AVR.Build.0 = Debug|AVR
+		{DA1667C3-E6C0-46B8-AA89-92F0E017260B}.Release|AVR.ActiveCfg = Release|AVR
+		{DA1667C3-E6C0-46B8-AA89-92F0E017260B}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
