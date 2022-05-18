@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "15-Internal_EEPROM_with_interrupt", "15-Internal_EEPROM_with_interrupt\15-Internal_EEPROM_with_interrupt.cproj", "{48313C61-1366-4F1D-814B-9DB322C92A6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48313C61-1366-4F1D-814B-9DB322C92A6B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{48313C61-1366-4F1D-814B-9DB322C92A6B}.Debug|AVR.Build.0 = Debug|AVR
+		{48313C61-1366-4F1D-814B-9DB322C92A6B}.Release|AVR.ActiveCfg = Release|AVR
+		{48313C61-1366-4F1D-814B-9DB322C92A6B}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
