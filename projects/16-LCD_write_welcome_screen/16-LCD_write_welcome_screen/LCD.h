@@ -117,5 +117,12 @@ function description: Move cursor of the LCD to the given row and column
 void LCD_move_cursor(uint8 row, uint8 column);
 
 
+/*
+function name: LCD_send_command
+function arguments: (uint8 command)
+function return: void
+function description: Send command to LCD
+*/
+void LCD_send_command(uint8 command);
 
 #endif /* LCD_H_ */

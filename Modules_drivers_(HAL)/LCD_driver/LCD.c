@@ -16,7 +16,7 @@ static void LCD_send_pulse(void)
 }
 
 
-static void LCD_send_command(uint8 command)
+void LCD_send_command(uint8 command)
 {
 	#if defined four_bits_mode
 	
@@ -68,8 +68,7 @@ void LCD_init(void)
 
 void LCD_clear_screen(void)
 {
-	GPIO_pin_write(RS_PORT,RS,0);
-	GPIO_port_write(LCD_PORT,CLEAR_SCREEN);
+	LCD_send_command(CLEAR_SCREEN);
 	_delay_ms(2);
 }
 
