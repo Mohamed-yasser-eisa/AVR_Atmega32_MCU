@@ -70,6 +70,30 @@
     <Compile Include="15-Internal_EEPROM_with_interrupt.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="Atmega_GPIO.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Atmega_GPIO.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="internalEEPROM.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="internalEEPROM.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="led.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="led.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="std_macros.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="typedef.h">
+      <SubType>compile</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>

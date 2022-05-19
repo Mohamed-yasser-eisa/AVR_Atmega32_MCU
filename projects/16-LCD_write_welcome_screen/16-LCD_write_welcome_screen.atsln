@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "16-LCD_write_welcome_screen", "16-LCD_write_welcome_screen\16-LCD_write_welcome_screen.cproj", "{1FB29838-D44B-460E-8D88-29BA38354FEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FB29838-D44B-460E-8D88-29BA38354FEF}.Debug|AVR.ActiveCfg = Debug|AVR
+		{1FB29838-D44B-460E-8D88-29BA38354FEF}.Debug|AVR.Build.0 = Debug|AVR
+		{1FB29838-D44B-460E-8D88-29BA38354FEF}.Release|AVR.ActiveCfg = Release|AVR
+		{1FB29838-D44B-460E-8D88-29BA38354FEF}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
