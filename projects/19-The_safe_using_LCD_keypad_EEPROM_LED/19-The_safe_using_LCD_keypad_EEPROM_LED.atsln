@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "19-The_safe_using_LCD_keypad_EEPROM_LED", "19-The_safe_using_LCD_keypad_EEPROM_LED\19-The_safe_using_LCD_keypad_EEPROM_LED.cproj", "{575E0283-53CA-4739-B15F-75AC07496EB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{575E0283-53CA-4739-B15F-75AC07496EB6}.Debug|AVR.ActiveCfg = Debug|AVR
+		{575E0283-53CA-4739-B15F-75AC07496EB6}.Debug|AVR.Build.0 = Debug|AVR
+		{575E0283-53CA-4739-B15F-75AC07496EB6}.Release|AVR.ActiveCfg = Release|AVR
+		{575E0283-53CA-4739-B15F-75AC07496EB6}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
