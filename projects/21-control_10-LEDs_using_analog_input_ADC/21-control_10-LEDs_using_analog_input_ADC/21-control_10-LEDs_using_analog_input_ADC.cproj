@@ -70,6 +70,12 @@
     <Compile Include="21-control_10-LEDs_using_analog_input_ADC.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="ADC.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ADC.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Atmega_GPIO.c">
       <SubType>compile</SubType>
     </Compile>

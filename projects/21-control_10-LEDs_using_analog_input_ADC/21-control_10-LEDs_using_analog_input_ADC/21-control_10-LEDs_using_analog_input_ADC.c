@@ -5,13 +5,50 @@
  *  Author: Mohamed Yasser
  */ 
 
+#define F_CPU 8000000UL
+#include "led.h"
+#include "ADC.h"
 
-#include <avr/io.h>
 
 int main(void)
 {
+	uint8 i = 0;
+	uint16 ADC_DATA = 0;
+	for (i=0; i<8; ++i)
+	{
+		LED_init('C',i);
+	}
+	for (i=0; i<2; ++i)
+	{
+		LED_init('D',i);
+	}
+	ADC_init();
+	
+	
     while(1)
     {
-        //TODO:: Please write your application code 
+        ADC_DATA = ADC_convert_read();
+		for (i=0; i<8; ++i)
+		{
+			if ( 1 == READ_BIT(ADC_DATA,i)  )
+			{
+				LED_turn_on('C', i);
+			}
+			else
+			{
+				LED_turn_off('C', i);
+			}
+		}
+		for (i=8; i<10; ++i)
+		{
+			if ( 1 == READ_BIT(ADC_DATA,i)  )
+			{
+				LED_turn_on('D', i-8);
+			}
+			else
+			{
+				LED_turn_off('D', i-8);
+			}
+		}
     }
 }
