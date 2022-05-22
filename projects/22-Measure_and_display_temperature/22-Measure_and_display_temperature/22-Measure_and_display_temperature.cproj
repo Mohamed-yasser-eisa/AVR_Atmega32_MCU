@@ -70,6 +70,39 @@
     <Compile Include="22-Measure_and_display_temperature.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="ADC.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ADC.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Atmega_GPIO.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Atmega_GPIO.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LCD.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LCD.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LCD_config.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LM35.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LM35.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="std_macros.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="typedef.h">
+      <SubType>compile</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>
