@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "22-Measure_and_display_temperature", "22-Measure_and_display_temperature\22-Measure_and_display_temperature.cproj", "{EF50659A-5F52-418D-AE88-AD967EC7B7E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF50659A-5F52-418D-AE88-AD967EC7B7E6}.Debug|AVR.ActiveCfg = Debug|AVR
+		{EF50659A-5F52-418D-AE88-AD967EC7B7E6}.Debug|AVR.Build.0 = Debug|AVR
+		{EF50659A-5F52-418D-AE88-AD967EC7B7E6}.Release|AVR.ActiveCfg = Release|AVR
+		{EF50659A-5F52-418D-AE88-AD967EC7B7E6}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
