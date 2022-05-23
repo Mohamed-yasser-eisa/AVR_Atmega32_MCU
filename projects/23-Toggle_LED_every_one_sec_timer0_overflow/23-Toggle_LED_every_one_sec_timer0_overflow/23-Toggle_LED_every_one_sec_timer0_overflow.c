@@ -6,6 +6,7 @@
  */ 
 
 /***************** Icludes section start ****************/
+#define F_CPU 8000000UL
 #include "timer0_overflow_mode.h"
 #include "led.h"
 /*=================== end ==============================*/
@@ -17,11 +18,10 @@ int main(void)
 	LED_init('A',5);
 	timer0_overflow_init();
 	/*pre-load 6 in TCNT0 register to set correct timing*/
-	timer0_TCNT0_value(6);
 	
     while(1)
     {
-        if (counter >= 32)
+        if (counter >= 31)
         {
 			counter = 0;
 			LED_toggle('A',5);
@@ -31,6 +31,5 @@ int main(void)
 
 ISR(TIMER0_OVF_vect)
 {
-	timer0_TCNT0_value(6);
 	counter++;
 }

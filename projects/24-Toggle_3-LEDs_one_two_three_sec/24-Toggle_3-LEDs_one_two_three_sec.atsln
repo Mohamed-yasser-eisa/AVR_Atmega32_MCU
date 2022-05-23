@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "24-Toggle_3-LEDs_one_two_three_sec", "24-Toggle_3-LEDs_one_two_three_sec\24-Toggle_3-LEDs_one_two_three_sec.cproj", "{F6A45134-30A2-4CE9-A687-7A7BEB8FD8AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A45134-30A2-4CE9-A687-7A7BEB8FD8AE}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F6A45134-30A2-4CE9-A687-7A7BEB8FD8AE}.Debug|AVR.Build.0 = Debug|AVR
+		{F6A45134-30A2-4CE9-A687-7A7BEB8FD8AE}.Release|AVR.ActiveCfg = Release|AVR
+		{F6A45134-30A2-4CE9-A687-7A7BEB8FD8AE}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

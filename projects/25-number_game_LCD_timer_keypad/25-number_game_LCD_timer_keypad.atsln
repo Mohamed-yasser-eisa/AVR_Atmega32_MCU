@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "25-number_game_LCD_timer_keypad", "25-number_game_LCD_timer_keypad\25-number_game_LCD_timer_keypad.cproj", "{B837BDC7-2A12-487B-AB5F-2199D78D090F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B837BDC7-2A12-487B-AB5F-2199D78D090F}.Debug|AVR.ActiveCfg = Debug|AVR
+		{B837BDC7-2A12-487B-AB5F-2199D78D090F}.Debug|AVR.Build.0 = Debug|AVR
+		{B837BDC7-2A12-487B-AB5F-2199D78D090F}.Release|AVR.ActiveCfg = Release|AVR
+		{B837BDC7-2A12-487B-AB5F-2199D78D090F}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
