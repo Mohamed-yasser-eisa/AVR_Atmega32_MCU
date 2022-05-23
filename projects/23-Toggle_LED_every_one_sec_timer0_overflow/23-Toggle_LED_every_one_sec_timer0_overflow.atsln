@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "23-Toggle_LED_every_one_sec_timer0_overflow", "23-Toggle_LED_every_one_sec_timer0_overflow\23-Toggle_LED_every_one_sec_timer0_overflow.cproj", "{3C2FD33E-18E5-4EF9-9E4F-43FF5B89AE93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C2FD33E-18E5-4EF9-9E4F-43FF5B89AE93}.Debug|AVR.ActiveCfg = Debug|AVR
+		{3C2FD33E-18E5-4EF9-9E4F-43FF5B89AE93}.Debug|AVR.Build.0 = Debug|AVR
+		{3C2FD33E-18E5-4EF9-9E4F-43FF5B89AE93}.Release|AVR.ActiveCfg = Release|AVR
+		{3C2FD33E-18E5-4EF9-9E4F-43FF5B89AE93}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
