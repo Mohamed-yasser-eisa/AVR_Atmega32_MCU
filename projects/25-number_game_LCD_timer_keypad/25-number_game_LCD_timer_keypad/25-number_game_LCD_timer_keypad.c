@@ -4,14 +4,14 @@
  * Created: 5/23/2022 9:30:05 PM
  *  Author: Mohamed Yasser
  */ 
-#pragma optimize("",off)
+//#pragma optimize("",off)
 
 #include <stdlib.h>
 #include "LCD.h"
 #include "keypad.h"
 #include "timer0_CTC_mode.h"
 
-volatile uint8 counter1 =0;
+volatile uint8 counter1 = 0;
 volatile uint8 seconds = 10;
 
 
