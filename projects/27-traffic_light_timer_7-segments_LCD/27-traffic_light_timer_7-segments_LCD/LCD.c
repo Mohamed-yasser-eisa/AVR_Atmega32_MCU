@@ -10,9 +10,9 @@
 static void LCD_send_pulse(void)
 {
 	GPIO_pin_write(EN_PORT,EN,1);
-	_delay_ms(2);
+	_delay_ms(1);
 	GPIO_pin_write(EN_PORT,EN,0);
-	_delay_ms(1);	
+	//_delay_ms(1);	
 }
 
 

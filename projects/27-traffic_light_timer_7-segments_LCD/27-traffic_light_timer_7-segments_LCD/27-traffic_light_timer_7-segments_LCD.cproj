@@ -85,6 +85,12 @@
     <Compile Include="LCD_config.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="led.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="led.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="seven_segment.c">
       <SubType>compile</SubType>
     </Compile>

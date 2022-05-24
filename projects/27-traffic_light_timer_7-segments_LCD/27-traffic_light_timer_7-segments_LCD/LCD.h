@@ -59,8 +59,8 @@
 #elif defined eight_bits_mode
 
 #define LCD_PORT 'A'	//define the port connected to LCD
-#define EN 0	//enable pin number
-#define RS 1	//register select pin number
+#define EN 1	//enable pin number
+#define RS 0	//register select pin number
 #define RS_PORT 'B'
 #define EN_PORT 'B'
 #define EIGHT_BITS 0x38
