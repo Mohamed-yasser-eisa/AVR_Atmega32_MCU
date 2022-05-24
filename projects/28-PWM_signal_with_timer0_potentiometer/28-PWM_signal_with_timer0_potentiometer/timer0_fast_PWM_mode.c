@@ -26,6 +26,6 @@ void timer0_fast_PWM_init(void)
 
 void set_duty_cycle(uint16 duty_cycle)
 {
-	duty_cycle = ((uint64)duty_cycle*25)/256;
-	OCR0 = (uint8)(((uint64)duty_cycle*51)/2000);
+	duty_cycle = (((float)duty_cycle/1023)*100.00);
+	OCR0 = (uint8)(((uint64)duty_cycle*255)/100);
 }

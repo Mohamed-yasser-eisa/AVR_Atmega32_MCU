@@ -16,10 +16,9 @@ int main(void)
 	uint16 ADC_DATA = 0;
 	ADC_init();
 	timer0_fast_PWM_init();
-   // while(1)
-    //{
+    while(1)
+    {
         ADC_DATA = ADC_convert_read(); 
 		set_duty_cycle(ADC_DATA);
-		_delay_ms(1000);
-    //}
+    }
 }
