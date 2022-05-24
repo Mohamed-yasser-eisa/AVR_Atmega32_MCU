@@ -5,8 +5,7 @@
  *  Author: Mohamed Yasser
  */ 
 
-#define F_CPU 8000000UL
-#include <util/delay.h>
+
 #include "timer0_fast_PWM_mode.h"
 #include "ADC.h"
 

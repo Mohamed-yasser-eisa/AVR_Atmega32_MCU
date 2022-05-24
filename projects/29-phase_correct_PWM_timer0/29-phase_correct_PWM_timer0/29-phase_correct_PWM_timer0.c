@@ -6,12 +6,18 @@
  */ 
 
 
-#include <avr/io.h>
+#include "timer0_phase_correct_PWM.h"
+#include "ADC.h"
+
 
 int main(void)
 {
+    uint16 ADC_DATA = 0;
+    ADC_init();
+    timer0_phase_correct_PWM_init();
     while(1)
     {
-        //TODO:: Please write your application code 
+	    ADC_DATA = ADC_convert_read();
+	    timer0_phase_correct_PWM_set(ADC_DATA);
     }
 }
