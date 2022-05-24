@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "29-phase_correct_PWM_timer0", "29-phase_correct_PWM_timer0\29-phase_correct_PWM_timer0.cproj", "{A7DE06A4-5817-4CFF-B75E-F68C10B56B82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7DE06A4-5817-4CFF-B75E-F68C10B56B82}.Debug|AVR.ActiveCfg = Debug|AVR
+		{A7DE06A4-5817-4CFF-B75E-F68C10B56B82}.Debug|AVR.Build.0 = Debug|AVR
+		{A7DE06A4-5817-4CFF-B75E-F68C10B56B82}.Release|AVR.ActiveCfg = Release|AVR
+		{A7DE06A4-5817-4CFF-B75E-F68C10B56B82}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
