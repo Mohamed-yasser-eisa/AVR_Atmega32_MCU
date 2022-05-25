@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "30-Real_time_hand_watch", "30-Real_time_hand_watch\30-Real_time_hand_watch.cproj", "{EB4E5721-E8A1-4B81-95E7-ADD958AECDD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB4E5721-E8A1-4B81-95E7-ADD958AECDD4}.Debug|AVR.ActiveCfg = Debug|AVR
+		{EB4E5721-E8A1-4B81-95E7-ADD958AECDD4}.Debug|AVR.Build.0 = Debug|AVR
+		{EB4E5721-E8A1-4B81-95E7-ADD958AECDD4}.Release|AVR.ActiveCfg = Release|AVR
+		{EB4E5721-E8A1-4B81-95E7-ADD958AECDD4}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
