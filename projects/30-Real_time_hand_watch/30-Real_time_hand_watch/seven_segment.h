@@ -58,7 +58,53 @@ function description: it writes the given number on seven segment display. The "
 */
 void Seven_segment_write(char port_name, uint8 number, uint8 DP_pin, uint8 common_anod);
 
+/*
+function name: Seven_seg1_write();
+function return: void
+function arguments: (uint8 number)
+function description: it turn on first 7-seg. and turn off others, and print number
+*/
+void Seven_seg1_write(uint8 number);
 
+/*
+function name: Seven_seg2_write();
+function return: void
+function arguments: (uint8 number)
+function description: it turn on second 7-seg. and turn off others, and print number
+*/
+void Seven_seg2_write(uint8 number);
+
+/*
+function name: Seven_seg3_write();
+function return: void
+function arguments: (uint8 number)
+function description: it turn on third 7-seg. and turn off others, and print number
+*/
+void Seven_seg3_write(uint8 number);
+
+/*
+function name: Seven_seg4_write();
+function return: void
+function arguments: (uint8 number)
+function description: it turn on forth 7-seg. and turn off others, and print number
+*/
+void Seven_seg4_write(uint8 number);
+
+/*
+function name: Seven_seg5_write();
+function return: void
+function arguments: (uint8 number)
+function description: it turn on fifth 7-seg. and turn off others, and print number
+*/
+void Seven_seg5_write(uint8 number);
+
+/*
+function name: Seven_seg6_write();
+function return: void
+function arguments: (uint8 number)
+function description: it turn on sixth 7-seg. and turn off others, and print number
+*/
+void Seven_seg6_write(uint8 number);
 
 /*============================ end ==============================*/
 

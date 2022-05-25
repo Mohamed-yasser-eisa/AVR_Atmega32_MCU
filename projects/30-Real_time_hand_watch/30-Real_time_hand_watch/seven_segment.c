@@ -66,5 +66,71 @@ void Seven_segment_write(char port_name, uint8 number, uint8 DP_pin, uint8 commo
     }
 }
 
+void Seven_seg1_write(uint8 number)
+{
+	GPIO_pin_write('B',0,0);
+	GPIO_pin_write('B',1,1);
+	GPIO_pin_write('B',2,1);
+	GPIO_pin_write('B',3,1);
+	GPIO_pin_write('B',4,1);
+	GPIO_pin_write('B',5,1);
+	Seven_segment_write('A', number,0,0);
+}
+
+void Seven_seg2_write(uint8 number)
+{
+	GPIO_pin_write('B',1,0);
+	GPIO_pin_write('B',0,1);
+	GPIO_pin_write('B',2,1);
+	GPIO_pin_write('B',3,1);
+	GPIO_pin_write('B',4,1);
+	GPIO_pin_write('B',5,1);
+	Seven_segment_write('A', number,0,0);
+}
+
+void Seven_seg3_write(uint8 number)
+{
+	GPIO_pin_write('B',2,0);
+	GPIO_pin_write('B',0,1);
+	GPIO_pin_write('B',1,1);
+	GPIO_pin_write('B',3,1);
+	GPIO_pin_write('B',4,1);
+	GPIO_pin_write('B',5,1);
+	Seven_segment_write('A', number,0,0);
+}
+
+void Seven_seg4_write(uint8 number)
+{
+	GPIO_pin_write('B',3,0);
+	GPIO_pin_write('B',0,1);
+	GPIO_pin_write('B',1,1);
+	GPIO_pin_write('B',2,1);
+	GPIO_pin_write('B',4,1);
+	GPIO_pin_write('B',5,1);
+	Seven_segment_write('A', number,0,0);
+}
+
+void Seven_seg5_write(uint8 number)
+{
+	GPIO_pin_write('B',4,0);
+	GPIO_pin_write('B',0,1);
+	GPIO_pin_write('B',1,1);
+	GPIO_pin_write('B',2,1);
+	GPIO_pin_write('B',3,1);
+	GPIO_pin_write('B',5,1);
+	Seven_segment_write('A', number,0,0);
+}
+
+void Seven_seg6_write(uint8 number)
+{
+	GPIO_pin_write('B',5,0);
+	GPIO_pin_write('B',0,1);
+	GPIO_pin_write('B',1,1);
+	GPIO_pin_write('B',2,1);
+	GPIO_pin_write('B',3,1);
+	GPIO_pin_write('B',4,1);
+	Seven_segment_write('A', number,0,0);
+}
+
 
 

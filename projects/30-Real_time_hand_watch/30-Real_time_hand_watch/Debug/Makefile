@@ -38,7 +38,9 @@ C_SRCS +=  \
 ../30-Real_time_hand_watch.c \
 ../Atmega_GPIO.c \
 ../button.c \
+../led.c \
 ../seven_segment.c \
+../timer0_CTC_mode.c \
 ../timer2_over_flow.c
 
 
@@ -52,7 +54,9 @@ OBJS +=  \
 30-Real_time_hand_watch.o \
 Atmega_GPIO.o \
 button.o \
+led.o \
 seven_segment.o \
+timer0_CTC_mode.o \
 timer2_over_flow.o
 
 
@@ -60,7 +64,9 @@ OBJS_AS_ARGS +=  \
 30-Real_time_hand_watch.o \
 Atmega_GPIO.o \
 button.o \
+led.o \
 seven_segment.o \
+timer0_CTC_mode.o \
 timer2_over_flow.o
 
 
@@ -68,7 +74,9 @@ C_DEPS +=  \
 30-Real_time_hand_watch.d \
 Atmega_GPIO.d \
 button.d \
+led.d \
 seven_segment.d \
+timer0_CTC_mode.d \
 timer2_over_flow.d
 
 
@@ -76,7 +84,9 @@ C_DEPS_AS_ARGS +=  \
 30-Real_time_hand_watch.d \
 Atmega_GPIO.d \
 button.d \
+led.d \
 seven_segment.d \
+timer0_CTC_mode.d \
 timer2_over_flow.d
 
 
@@ -89,6 +99,10 @@ ADDITIONAL_DEPENDENCIES:=
 OUTPUT_FILE_DEP:= ./makedep.mk
 
 # AVR32/GNU C Compiler
+
+
+
+
 
 
 
