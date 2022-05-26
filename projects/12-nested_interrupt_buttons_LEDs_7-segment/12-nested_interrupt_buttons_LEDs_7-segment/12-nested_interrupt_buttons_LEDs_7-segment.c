@@ -67,23 +67,29 @@ int main(void)
 
 ISR(INT0_vect)
 {
-	sei();
+	sei(); //enable all interrupts
 	LED_turn_on('B',1);
+	Seven_segment_write('C',0,0,0);
+	Seven_segment_write('A',0,0,1);
 	_delay_ms(2000);
 }
 
 ISR(INT1_vect)
 {
-	sei();
+	sei(); //enable all interrupts
 	++counter1;
 	Seven_segment_write('C', counter1 % 10,0,0);
+	LED_turn_off('B',1);
+	Seven_segment_write('A',0,0,1);
 	_delay_ms(2000);
 }
 
 ISR(INT2_vect)
 {
-	sei();
+	sei(); //enable all interrupts
 	++counter2;
 	Seven_segment_write('A', counter2 % 10,0,1);
+	LED_turn_off('B',1);
+	Seven_segment_write('C',0,0,0);
 	_delay_ms(2000);
 }
