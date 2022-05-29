@@ -11,15 +11,38 @@
 
 int main(void)
 {
-	uint8 i = 0;
+	uint8 row = 1;
 	char data = '\0';
-	USART_init();
 	LCD_init();
+	USART_init();
+	
 	
 	while(1)
 	{
 		data = USART_receive_char();
-		LCD_send_character(data);
+		if ('\0' != data)
+		{
+			LCD_send_character(data);
+			if ((char) 'd' == (char)data)
+			{
+				++row;
+				if (6 == row)
+				{
+					row = 1;
+					LCD_clear_screen();
+				}
+				else
+				{
+					LCD_move_cursor(row, 1);
+				}
+			}
+			else
+			{
+				data = '\0';
+			}
+			
+		}
+		
     } 
 		
 }

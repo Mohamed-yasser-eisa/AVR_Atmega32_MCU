@@ -76,16 +76,19 @@
     <Compile Include="Atmega_GPIO.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="LCD.c">
+    <Compile Include="button.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="LCD.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="LCD_config.h">
+    <Compile Include="button.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="std_macros.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="timer0_overflow_mode.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="timer0_overflow_mode.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="typedef.h">

@@ -37,7 +37,8 @@ SUBDIRS :=
 C_SRCS +=  \
 ../31-Send_string_through_USART_protocol.c \
 ../Atmega_GPIO.c \
-../LCD.c \
+../button.c \
+../timer0_overflow_mode.c \
 ../USART.c
 
 
@@ -50,28 +51,32 @@ ASM_SRCS +=
 OBJS +=  \
 31-Send_string_through_USART_protocol.o \
 Atmega_GPIO.o \
-LCD.o \
+button.o \
+timer0_overflow_mode.o \
 USART.o
 
 
 OBJS_AS_ARGS +=  \
 31-Send_string_through_USART_protocol.o \
 Atmega_GPIO.o \
-LCD.o \
+button.o \
+timer0_overflow_mode.o \
 USART.o
 
 
 C_DEPS +=  \
 31-Send_string_through_USART_protocol.d \
 Atmega_GPIO.d \
-LCD.d \
+button.d \
+timer0_overflow_mode.d \
 USART.d
 
 
 C_DEPS_AS_ARGS +=  \
 31-Send_string_through_USART_protocol.d \
 Atmega_GPIO.d \
-LCD.d \
+button.d \
+timer0_overflow_mode.d \
 USART.d
 
 
@@ -84,6 +89,8 @@ ADDITIONAL_DEPENDENCIES:=
 OUTPUT_FILE_DEP:= ./makedep.mk
 
 # AVR32/GNU C Compiler
+
+
 
 
 
