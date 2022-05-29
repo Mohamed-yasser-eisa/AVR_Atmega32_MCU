@@ -39,7 +39,6 @@ void USART_send_string(char* string)
 	{
 		USART_send_char(*string);
 		++string;
-		_delay_ms(20);
 	}
 }
 

@@ -6,12 +6,11 @@
  */ 
 
 
-#include <avr/io.h>
+#include "USART.h"
 
 int main(void)
 {
-    while(1)
-    {
-        //TODO:: Please write your application code 
-    }
+	USART_init();
+	/*send string through USART*/
+	USART_send_string("Mohamed Yasser");
 }

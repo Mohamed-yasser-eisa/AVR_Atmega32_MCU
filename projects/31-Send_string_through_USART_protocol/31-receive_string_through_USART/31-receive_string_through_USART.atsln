@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "31-receive_string_through_USART", "31-receive_string_through_USART\31-receive_string_through_USART.cproj", "{AF2E0490-D4C2-4F2E-A03D-B4E0EA490D6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF2E0490-D4C2-4F2E-A03D-B4E0EA490D6E}.Debug|AVR.ActiveCfg = Debug|AVR
+		{AF2E0490-D4C2-4F2E-A03D-B4E0EA490D6E}.Debug|AVR.Build.0 = Debug|AVR
+		{AF2E0490-D4C2-4F2E-A03D-B4E0EA490D6E}.Release|AVR.ActiveCfg = Release|AVR
+		{AF2E0490-D4C2-4F2E-A03D-B4E0EA490D6E}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
