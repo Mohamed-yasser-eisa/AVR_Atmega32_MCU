@@ -37,6 +37,7 @@ SUBDIRS :=
 C_SRCS +=  \
 ../32-Interface_with_PC_by_USART.c \
 ../Atmega_GPIO.c \
+../keypad.c \
 ../LCD.c \
 ../USART.c
 
@@ -50,6 +51,7 @@ ASM_SRCS +=
 OBJS +=  \
 32-Interface_with_PC_by_USART.o \
 Atmega_GPIO.o \
+keypad.o \
 LCD.o \
 USART.o
 
@@ -57,6 +59,7 @@ USART.o
 OBJS_AS_ARGS +=  \
 32-Interface_with_PC_by_USART.o \
 Atmega_GPIO.o \
+keypad.o \
 LCD.o \
 USART.o
 
@@ -64,6 +67,7 @@ USART.o
 C_DEPS +=  \
 32-Interface_with_PC_by_USART.d \
 Atmega_GPIO.d \
+keypad.d \
 LCD.d \
 USART.d
 
@@ -71,6 +75,7 @@ USART.d
 C_DEPS_AS_ARGS +=  \
 32-Interface_with_PC_by_USART.d \
 Atmega_GPIO.d \
+keypad.d \
 LCD.d \
 USART.d
 
@@ -84,6 +89,8 @@ ADDITIONAL_DEPENDENCIES:=
 OUTPUT_FILE_DEP:= ./makedep.mk
 
 # AVR32/GNU C Compiler
+
+
 
 
 

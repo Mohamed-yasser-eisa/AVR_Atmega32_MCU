@@ -12,6 +12,7 @@
 
 #include "USART_config.h"
 #include "Atmega_GPIO.h"
+#include <avr/interrupt.h>
 
 #if defined USART_asynchronous_mode
 

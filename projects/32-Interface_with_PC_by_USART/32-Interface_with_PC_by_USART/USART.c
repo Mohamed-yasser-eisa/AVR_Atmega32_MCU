@@ -17,6 +17,9 @@ void USART_init(void)
 	/*set baud rate of USART*/
 	UBRRL = (char)BAUD_PRESCALE;
 	UBRRH = (char)(BAUD_PRESCALE >> 8);
+	/*initialize interrupt*/
+	sei();
+	SET_BIT(UCSRB, RXCIE);
 }
 
 
